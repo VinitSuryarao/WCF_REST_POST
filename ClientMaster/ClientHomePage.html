@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.1.1.min.js"></script>
+    <script src="../Scripts/Service.js"></script>
+    <script src="../Scripts/ClientHomePage.js"></script>
+
+</head>
+<body>
+    <!--Display All Records-->
+    <div id="heroOverview" style="background-color:honeydew">
+        <h5> List of all Records </h5>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Code</td>
+                    <td>Name</td>
+                    <td>Exchange</td>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+   
+    <!--Add Records-->
+    <div id="addClientForm" style="background-color:burlywood">
+        <h5> Add Records </h5>
+        <input type="text" placeholder="Id" id="addId" /><br />
+        <input type="text" placeholder="Code" id="addCode" /><br />
+        <input type="text" placeholder="Name" id="addName" /><br />
+        <input type="text" placeholder="Exchange" id="addExchange" /><br />
+        <button onclick="addClient();">Add</button>
+    </div>
+   ="deleteClient();">Delete</button>
+    </div>
+</body>
+</html>
